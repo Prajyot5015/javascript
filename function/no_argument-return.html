@@ -7,15 +7,15 @@
 </head>
 <body>
     <script>
-        function calculateArea(radius)
+        const radius = 9;
+        function calculateArea()
         {
-            return ( 3.14 * radius * radius );
+            const area = 3.14 * radius * radius ;
+            return area;
         }
 
-        const radius = 8;
-
-        document.write(`Area of Circle : ${calculateArea(radius)} `);
-
+        const result = calculateArea();
+        document.write(`Area of Circle : ${result}`);
     </script>
 </body>
 </html>
